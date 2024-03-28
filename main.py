@@ -52,20 +52,6 @@ def proxima_pergunta():
     st.session_state.selected_option = None
     st.session_state.answer_submitted = False
 
-if st.session_state.quiz_finalizado:
-    # Cria um bloco de Markdown para exibir a pontuação com estilo
-    st.markdown(f"""
-    <div style="background-color: #f0f2f6; border-radius: 10px; padding: 20px; text-align: center;">
-        <h1>Quiz Concluído!</h1>
-        <h2>Sua pontuação é: <span style="color: #333;">{st.session_state.score} / {len(dados_quiz) * 10}</span></h2>
-    </div>
-    """, unsafe_allow_html=True)
-    
-    # Opcionalmente, adiciona um botão para reiniciar o quiz
-    if st.button('Reiniciar', on_click=reiniciar_quiz):
-        pass
-else:
-
 # Título e descrição
 st.title("Quizz Programa Nacional de Reformas")
 
