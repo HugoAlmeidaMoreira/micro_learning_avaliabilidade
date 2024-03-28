@@ -1,62 +1,30 @@
 [
     {
-        "question": "What is the primary goal of artificial intelligence?",
-        "information": "This field of computer science aims to create systems capable of performing tasks that would typically require human intelligence.",
-        "options": ["To simulate human intelligence", "To enhance computer speed", "To replace human jobs", "To improve data storage"],
-        "answer": "To simulate human intelligence"
+        "question": "Na fase preparatória do semestre europeu, quem está responsável por elaborar as análises das Políticas orçamentais e estruturais?",
+        "information": "Esta fase é crucial para avaliar as políticas financeiras e estruturais de cada Estado-Membro da União Europeia.",
+        "image_path": "content/Assets/pergunta1.png",
+        "options": ["Comissão Europeia", "Conselho Europeu", "Parlamento Europeu", "Cada Estado-Membro"],
+        "answer": "Comissão Europeia"
     },
     {
-        "question": "What is 'machine learning' in the context of artificial intelligence?",
-        "information": "This is a subset of artificial intelligence that involves the creation of systems that can learn from and make decisions based on data.",
-        "options": ["A new programming language", "A data processing method", "A subset of artificial intelligence", "A type of computer hardware"],
-        "answer": "A subset of artificial intelligence"
+        "question": "Na primeira fase do semestre europeu, quem fornece as orientações políticas ao nível da União Europeia para o Programa Nacional de Reforma?",
+        "information": "Esta fase define as prioridades e direções gerais de política para os Estados-Membros seguir em seus programas nacionais.",
+        "image_path": "content/Assets/pergunta2.png",
+        "options": ["Comissão Europeia", "Conselho Europeu", "Parlamento Europeu", "Cada Estado-Membro"],
+        "answer": "Comissão Europeia"
     },
     {
-        "question": "What is a 'neural network' in terms of artificial intelligence?",
-        "information": "This is a computational model inspired by the human brain's network of neurons, used in machine learning for pattern recognition.",
-        "options": ["A computer virus", "A data storage solution", "A machine learning model", "A network security protocol"],
-        "answer": "A machine learning model"
+        "question": "Na segunda fase do semestre europeu, quem está responsável por aprovar a versão final das recomendações específicas por país?",
+        "information": "Após a elaboração e análise das recomendações, um órgão específico é encarregado de dar a aprovação final.",
+        "image_path": "content/Assets/pergunta3.png",
+        "options": ["Comissão Europeia", "Conselho Europeu", "Parlamento Europeu", "Cada Estado-Membro"],
+        "answer": "Conselho Europeu"
     },
     {
-        "question": "Who is considered the father of artificial intelligence?",
-        "information": "This individual is credited with laying the groundwork for the field of artificial intelligence through his seminal work and research.",
-        "options": ["Alan Turing", "John McCarthy", "Elon Musk", "Stephen Hawking"],
-        "answer": "John McCarthy"
-    },
-    {
-        "question": "What is the Turing Test used to evaluate?",
-        "information": "This test is used to assess a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human.",
-        "options": ["Artificial intelligence", "Computer speed", "Data storage capacity", "Network security"],
-        "answer": "Artificial intelligence"
-    },
-    {
-        "question": "What is 'deep learning' in the context of artificial intelligence?",
-        "information": "This is a subset of machine learning involving neural networks with many layers, used for tasks like image recognition and natural language processing.",
-        "options": ["A type of artificial intelligence", "A programming methodology", "A computer network structure", "A database design"],
-        "answer": "A type of artificial intelligence"
-    },
-    {
-        "question": "Which of the following is an application of AI in daily life?",
-        "information": "Artificial intelligence can be used in many different fields and for various purposes.",
-        "options": ["Self-driving cars", "Manual data entry", "Traditional board games", "Mechanical switches"],
-        "answer": "Self-driving cars"
-    },
-    {
-        "question": "What does 'NLP' stand for in the context of artificial intelligence?",
-        "information": "This technology enables computers to understand, interpret, and produce human language and speech.",
-        "options": ["Natural Language Processing", "Numerical Logic Programming", "Nonlinear Performance Parameters", "Network Layer Protocols"],
-        "answer": "Natural Language Processing"
-    },
-    {
-        "question": "What is reinforcement learning?",
-        "information": "This type of machine learning is based on the idea of agents that learn to make decisions by taking actions in an environment to achieve some notion of cumulative reward.",
-        "options": ["A form of supervised learning", "A type of unsupervised learning", "A kind of semi-supervised learning", "A model of machine learning"],
-        "answer": "A model of machine learning"
-    },
-    {
-        "question": "Which of the following is a common use of AI in businesses?",
-        "information": "Artificial intelligence is being used to improve various aspects of businesses and customer experiences.",
-        "options": ["Customer service chatbots", "Paper file management", "Manual account calculations", "Traditional advertising methods"],
-        "answer": "Customer service chatbots"
+        "question": "Na terceira fase do semestre europeu, quem operacionaliza as recomendações específicas para cada país?",
+        "information": "Após a aprovação das recomendações, cada país deve implementá-las conforme as diretrizes estabelecidas.",
+        "image_path": "content/Assets/pergunta4.png",
+        "options": ["Comissão Europeia", "Cada Estado-Membro", "Conselho Europeu", "Parlamento Europeu"],
+        "answer": "Cada Estado-Membro"
     }
 ]

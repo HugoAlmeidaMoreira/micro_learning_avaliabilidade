@@ -52,64 +52,57 @@ def proxima_pergunta():
     st.session_state.selected_option = None
     st.session_state.answer_submitted = False
 
-# Título e descrição
-st.title("Quizz PlanAPP")
+if st.session_state.quiz_finalizado:
+    # Cria um bloco de Markdown para exibir a pontuação com estilo
+    st.markdown(f"""
+    <div style="background-color: #f0f2f6; border-radius: 10px; padding: 20px; text-align: center;">
+        <h1>Quiz Concluído!</h1>
+        <h2>Sua pontuação é: <span style="color: #333;">{st.session_state.score} / {len(dados_quiz) * 10}</span></h2>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    # Opcionalmente, adiciona um botão para reiniciar o quiz
+    if st.button('Reiniciar', on_click=reiniciar_quiz):
+        pass
+else:
 
-if not st.session_state.quiz_finalizado:
-    # Barra de progresso
-    valor_barra_progresso = (st.session_state.current_index + 1) / len(dados_quiz)
-    st.metric(label="Pontuação", value=f"{st.session_state.score} / {len(dados_quiz) * 10}")
-    st.progress(valor_barra_progresso)
+    # Título e descrição
+    st.title("Quizz Programa Nacional de Reformas")
 
-    # Exibe a pergunta e as opções de resposta
-    item_pergunta = dados_quiz[st.session_state.current_index]
-    st.subheader(f"Pergunta {st.session_state.current_index + 1}")
-    st.title(f"{item_pergunta['question']}")
-    st.write(item_pergunta['information'])
+    if not st.session_state.quiz_finalizado:
+        # Barra de progresso
+        valor_barra_progresso = (st.session_state.current_index + 1) / len(dados_quiz)
+        st.metric(label="Pontuação", value=f"{st.session_state.score} / {len(dados_quiz) * 10}")
+        st.progress(valor_barra_progresso)
 
-    st.markdown(""" ___""")
-
-    # Seleção de resposta
-    opcoes = item_pergunta['options']
-    resposta_correta = item_pergunta['answer']
-
-    if st.session_state.answer_submitted:
-        for i, opcao in enumerate(opcoes):
-            etiqueta = opcao
-            if opcao == resposta_correta:
-                st.success(f"{etiqueta} (Resposta correta)")
-            elif opcao == st.session_state.selected_option:
-                st.error(f"{etiqueta} (Resposta incorreta)")
-            else:
-                st.write(etiqueta)
-    else:
-        for i, opcao in enumerate(opcoes):
-            if st.button(opcao, key=i, use_container_width=True):
-                st.session_state.selected_option = opcao
-
-    st.markdown(""" ___""")
-
-# Botão de submissão e lógica de resposta
-if st.session_state.answer_submitted:
-    if st.session_state.current_index < len(dados_quiz) - 1:
-        st.button('Próxima', on_click=proxima_pergunta)
-    else:
-        # Atualiza o estado para finalizado
-        st.session_state.quiz_finalizado = True
-
-        # Cria um bloco de Markdown para exibir a pontuação com estilo
-        st.markdown(f"""
-        <div style="background-color: #f0f2f6; border-radius: 10px; padding: 20px; text-align: center;">
-            <h1>Quiz Concluído!</h1>
-            <h2>Sua pontuação é: <span style="color: #333;">{st.session_state.score} / {len(dados_quiz) * 10}</span></h2>
-        </div>
-        """, unsafe_allow_html=True)
+        # Exibe a pergunta e as opções de resposta
+        item_pergunta = dados_quiz[st.session_state.current_index]
+        st.subheader(f"Pergunta {st.session_state.current_index + 1}")
+        st.title(f"{item_pergunta['question']}")
+        st.image(item_pergunta['image_path'], use_column_width=True)
 
         st.markdown(""" ___""")
 
-        # Botão de reiniciar
-        if st.button('Reiniciar', on_click=reiniciar_quiz):
-            pass
+        # Seleção de resposta
+        opcoes = item_pergunta['options']
+        resposta_correta = item_pergunta['answer']
+
+        if st.session_state.answer_submitted:
+            for i, opcao in enumerate(opcoes):
+                etiqueta = opcao
+                if opcao == resposta_correta:
+                    st.success(f"{etiqueta} (Resposta correta)")
+                elif opcao == st.session_state.selected_option:
+                    st.error(f"{etiqueta} (Resposta incorreta)")
+                else:
+                    st.write(etiqueta)
+        else:
+            for i, opcao in enumerate(opcoes):
+                if st.button(opcao, key=i, use_container_width=True):
+                    st.session_state.selected_option = opcao
+
+        st.markdown(""" ___""")
+
 else:
     if st.session_state.current_index < len(dados_quiz):
         st.button('Submeter', on_click=submeter_resposta)
