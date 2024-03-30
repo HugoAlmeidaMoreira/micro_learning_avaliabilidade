@@ -1,9 +1,10 @@
 import streamlit as st
 import json
+from streamlit_extras.stoggle import stoggle
 
 def run():
     st.set_page_config(
-        page_title="Quizz PlanAPP",
+        page_title="Quizz Programa Nacional de Reformas",
         page_icon="❓",
     )
 
@@ -45,7 +46,7 @@ def submeter_resposta():
             st.session_state.score += 10
     else:
         # Se nenhuma opção foi selecionada, mostra uma mensagem e não marca como submetida
-        st.warning("Por favor, selecione uma opção antes de submeter.")
+        st.warning("Selecione uma opção antes de submeter.")
 
 def proxima_pergunta():
     st.session_state.current_index += 1
@@ -53,19 +54,25 @@ def proxima_pergunta():
     st.session_state.answer_submitted = False
 
 # Título e descrição
-st.title("Quizz Programa Nacional de Reformas")
+st.subheader("Quizz Programa Nacional de Reformas")
+
 
 if not st.session_state.quiz_finalizado:
     # Barra de progresso
     valor_barra_progresso = (st.session_state.current_index + 1) / len(dados_quiz)
-    st.metric(label="Pontuação", value=f"{st.session_state.score} / {len(dados_quiz) * 10}")
+    numero_pergunta_atual = st.session_state.current_index + 1
+    st.write(f"Pergunta {numero_pergunta_atual} de {len(dados_quiz)}")
     st.progress(valor_barra_progresso)
+
 
     # Exibe a pergunta e as opções de resposta
     item_pergunta = dados_quiz[st.session_state.current_index]
-    st.subheader(f"Pergunta {st.session_state.current_index + 1}")
-    st.title(f"{item_pergunta['question']}")
-    st.image(item_pergunta['image_path'], use_column_width=True)
+    st.subheader(f"{item_pergunta['question']}")
+
+    stoggle(
+    "Pista",
+    f"""{dados_quiz[st.session_state.current_index]['hint']}""",
+)
 
     st.markdown(""" ___""")
 
@@ -73,21 +80,32 @@ if not st.session_state.quiz_finalizado:
     opcoes = item_pergunta['options']
     resposta_correta = item_pergunta['answer']
 
-    if st.session_state.answer_submitted:
-        for i, opcao in enumerate(opcoes):
-            etiqueta = opcao
-            if opcao == resposta_correta:
-                st.success(f"{etiqueta} (Resposta correta)")
-            elif opcao == st.session_state.selected_option:
-                st.error(f"{etiqueta} (Resposta incorreta)")
-            else:
-                st.write(etiqueta)
+if st.session_state.answer_submitted:
+    # Define a mensagem e a cor do fundo com base na corretude da resposta
+    if st.session_state.selected_option == dados_quiz[st.session_state.current_index]['answer']:
+        mensagem = "Correto!"
+        cor_fundo = "#D4EDDA"  # Uma cor de fundo suave para resposta correta, por exemplo, verde claro
     else:
-        for i, opcao in enumerate(opcoes):
-            if st.button(opcao, key=i, use_container_width=True):
-                st.session_state.selected_option = opcao
+        mensagem = "Incorreto"
+        cor_fundo = "#f0f2f6"  # Uma cor de fundo suave para resposta incorreta, por exemplo, vermelho claro
 
+    # Renderiza o feedback com as    variáveis definidas acima
+    st.markdown(f"""
+    <div style="background-color: {cor_fundo}; border-radius: 10px; padding: 20px; text-align: center;">
+        <h3>{mensagem}</h3>
+        <p>{item_pergunta['explanation']}</p>
+    </div>
+    """, unsafe_allow_html=True)
     st.markdown(""" ___""")
+    st.image(dados_quiz[st.session_state.current_index]['image_path'], use_column_width=True)
+else:
+    # Renderiza os botões para seleção de opção
+    for i, opcao in enumerate(opcoes):
+        if st.button(opcao, key=i, use_container_width=True):
+            st.session_state.selected_option = opcao
+
+st.markdown(""" ___""")
+
 
 # Botão de submissão e lógica de resposta
 if st.session_state.answer_submitted:
