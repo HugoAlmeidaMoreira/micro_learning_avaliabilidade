@@ -97,6 +97,3 @@ def run():
         if st.button("Reiniciar"):
             st.session_state.current_section = 0
             st.experimental_rerun()
-
-if __name__ == "__main__":
-    run()
