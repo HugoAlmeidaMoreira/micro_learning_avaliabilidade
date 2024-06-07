@@ -84,7 +84,7 @@ def run():
             </div>
             """, unsafe_allow_html=True)
         st.subheader('', divider='rainbow')
-        st.image("content/assets/endsection.png")
+        st.image("content/Assets/endsection.png")
         st.subheader('', divider='rainbow')
         st.markdown(f"""
             <div style="text-align: center;">
