@@ -1,51 +1,40 @@
 [
     {
-        "title": "Introdução ao Programa",
+        "title": "Amigos Robóticos para Idosos 🤖",
         "text": "Uma pequena cidade apresentou o novo programa que vai disponibilizar robôs aos mais idosos para promover a atividade física, assistindo-os nos seus passeios. O presidente explicou que esta iniciativa é um passo importante para melhorar a qualidade de vida dos idosos, proporcionando-lhes companhia e motivação para se manterem ativos.",
         "image_path": "content/Assets/section1.png",
-        "button_text": "Começar a sessão"
+        "button_text": "Começar a explorar a análise da avaliabilidade"
     },
     {
-        "title": "Análise da Avaliabilidade",
+        "title": "Análise da Avaliabilidade 🔎",
         "text": "O presidente e o avaliador decidem fazer uma análise da avaliabilidade para garantir que o novo programa está preparado para uma avaliação futura. Eles reconhecem a importância de assegurar que todos os elementos necessários estejam em vigor antes de avançar.",
         "image_path": "content/Assets/section2.png",
         "button_text": "Continuar"
     },
     {
-        "title": "Questão sobre Conceitos de Avaliabilidade",
-        "question": "Selecione os conceitos que têm potencial para pertencer à análise de avaliabilidade",
+        "title": "Dimensões da análise da avaliabilidade 📋",
+        "question": "Selecione o conceito que parece pertencer à análise de avaliabilidade",
         "image_path": "content/Assets/section3.png",
         "explanation": "O presidente reconhece que é essencial ter as condições técnicas e de contexto antes de investir recursos no processo de avaliação. Assim, no desenho da política pública, definiram claramente os objetivos, metas realistas e mensuráveis e criaram um modelo lógico consistente. Também garantiram um contexto institucional favorável, disponibilizando informação relevante em tempo útil, com recursos financeiros e humanos adequados e um consenso sobre a realização e os objetivos da avaliação.",
         "hint": "Lembre-se de que é essencial ter condições técnicas e de contexto antes de investir recursos no processo de avaliação. No desenho da política pública, foram definidos objetivos claros, metas realistas e mensuráveis, e foi criado um modelo lógico consistente. Além disso, garantiram um contexto institucional favorável, disponibilizando informação relevante em tempo útil, com recursos financeiros e humanos adequados.",
         "options": [
-            "Objetivos Claros",
-            "Indicadores Mensuráveis",
-            "Boa Nota dos Professores",
-            "Modelo lógico",
             "Impacto na Saúde",
             "Contexto Institucional Favorável",
-            "Fotocopiadora",
-            "Recursos Financeiros"
+            "Fotocopiadora"
         ],
-        "answer": [
-            "Objetivos Claros",
-            "Indicadores Mensuráveis",
-            "Modelo lógico",
-            "Contexto Institucional Favorável",
-            "Recursos Financeiros"
-        ],
+        "answer": "Contexto Institucional Favorável",
         "button_answer": "Continuar"
     },
     {
-        "title": "Componentes da Análise de Avaliabilidade",
+        "title": "Componentes da Análise de Avaliabilidade 📚",
         "text": "Depois de decidir realizar uma análise de avaliabilidade, o presidente e o avaliador precisam considerar três componentes principais: teoria, prática e utilidade e interesse. A teoria avalia se existe um raciocínio claro que articule como e em que condições as atividades influenciam a mudança. A prática verifica se existem dados disponíveis para avaliar o mérito ou o valor da intervenção. A utilidade e interesse determinam se há interesse dos decisores políticos em utilizar os resultados e recomendações da avaliação.",
         "image_path": "content/Assets/section5.png",
         "button_text": "Avançar"
     },
     {
-        "title": "Fases da Análise de Avaliabilidade",
-        "question": "Em quais fases do ciclo de políticas públicas considera que a análise de avaliabilidade é importante? (Selecione todas as que se aplicam)",
-        "image_path": "content/Assets/section5.png",
+        "title": "Fases da Análise de Avaliabilidade 📋",
+        "question_multiple": "Em quais fases do ciclo de políticas públicas considera que a análise de avaliabilidade é importante? (Selecione todas as que se aplicam)",
+        "image_path": "content/Assets/section6.png",
         "explanation": "A análise de avaliabilidade pode ser realizada em diferentes momentos do ciclo de políticas públicas. Durante a formulação, assegura que a política está bem desenhada. Na implementação e monitorização, permite identificar e corrigir problemas em tempo real. Após a implementação, ajuda a entender os resultados e impactos finais.",
         "options": [
             "Formulação da Política (Avaliação Ex-Ante)",
@@ -59,7 +48,7 @@
         ]
     },
     {
-        "title": "Conclusão da Sessão",
+        "title": "Conclusão da Sessão 🧑‍🎓👩‍🎓",
         "text": "Nesta sessão, explorámos o conceito de análise de avaliabilidade, assegurando que todos os elementos necessários – como objetivos claros, indicadores mensuráveis e um sistema de recolha de dados robusto – estejam em vigor. Aprendemos a importância de realizar esta análise em diferentes fases do ciclo de políticas públicas: formulação, implementação e avaliação ex-post, para garantir a eficácia e o sucesso da política.",
         "image_path": "content/Assets/endsection.png",
         "button_text": "Concluir"
