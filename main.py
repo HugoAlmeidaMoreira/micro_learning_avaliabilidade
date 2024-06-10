@@ -1,7 +1,7 @@
 # main.py
 import streamlit as st
-from components import render_static_content, render_question_content, render_script_content, render_navigation_buttons
-from data_helpers import load_quiz_data
+from scripts.components import render_static_content, render_question_content, render_script_content, render_navigation_buttons
+from scripts.data_helpers import load_quiz_data
 
 def run():
     st.set_page_config(
