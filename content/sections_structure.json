@@ -26,7 +26,14 @@
         "button_answer": "Continuar"
     },
     {
-        "title": "Componentes da Análise de Avaliabilidade 📚",
+        "title": "Importância do acesso a dados 📊",
+        "text": "Deslize o cursor para explorar diferentes dados de avaliação do programa “Amigos de circuito” e os seus impactos nos resultados da observação da avaliação.",
+        "script_path": "scripts/section1.py",
+        "explanation": "Como podemos ver, à medida que o avaliador tem acesso a mais dados, ele pode criar um relatório mais relevante e completo. Ter acesso a todos estes dados permite uma avaliação mais precisa e informada, fundamental para tomar decisões futuras baseadas em evidências.",
+        "button_text": "Continuar"
+    },
+    {
+        "title": "Componentes Análise da Avaliabilidade 📚",
         "text": "Depois de decidir realizar uma análise de avaliabilidade, o presidente e o avaliador precisam considerar três componentes principais: teoria, prática e utilidade e interesse. A teoria avalia se existe um raciocínio claro que articule como e em que condições as atividades influenciam a mudança. A prática verifica se existem dados disponíveis para avaliar o mérito ou o valor da intervenção. A utilidade e interesse determinam se há interesse dos decisores políticos em utilizar os resultados e recomendações da avaliação.",
         "image_path": "content/Assets/section5.png",
         "button_text": "Avançar"
@@ -48,7 +55,7 @@
         ]
     },
     {
-        "title": "Conclusão da Sessão 🧑‍🎓👩‍🎓",
+        "title": "🧑‍🎓 Síntese da Sessão 👩‍🎓",
         "text": "Nesta sessão, explorámos o conceito de análise de avaliabilidade, assegurando que todos os elementos necessários – como objetivos claros, indicadores mensuráveis e um sistema de recolha de dados robusto – estejam em vigor. Aprendemos a importância de realizar esta análise em diferentes fases do ciclo de políticas públicas: formulação, implementação e avaliação ex-post, para garantir a eficácia e o sucesso da política.",
         "image_path": "content/Assets/endsection.png",
         "button_text": "Concluir"

@@ -2,6 +2,7 @@ import streamlit as st
 import json
 import os
 
+
 def run():
     st.set_page_config(
         page_title="Análise de avaliabilidade",
@@ -83,8 +84,25 @@ def run():
             else:
                 st.warning("Selecione pelo menos uma opção.")
 
+        # Verificar e executar script
+        if "script_path" in section:
+            
+            script_path = section["script_path"]
+            script_dir, script_name = os.path.split(script_path)
+            script_module_name = script_name.replace('.py', '')
+
+            # Add script directory to the system path
+            import sys
+            sys.path.append(script_dir)
+
+            # Import and run the script
+            script_module = __import__(script_module_name)
+            script_module.slider_app()
+
+            st.write(section["explanation"])
+
         # Botões para continuar e voltar sem perguntas
-        elif "button_text" in section:
+        if "button_text" in section:
             if st.session_state.current_section > 0:
                 st.subheader('', divider='rainbow')
                 col1, col2 = st.columns(2)
