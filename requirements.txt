@@ -1,3 +1,0 @@
-streamlit
-streamlit-extras
-annotated_text
