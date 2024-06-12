@@ -15,12 +15,12 @@
         "title": "Dimensões da análise da avaliabilidade 📋",
         "question": "Selecione o conceito que parece pertencer à análise de avaliabilidade",
         "image_path": "content/Assets/section3.png",
-        "explanation": "O presidente reconhece que é essencial ter as condições técnicas e de contexto antes de investir recursos no processo de avaliação. Assim, no desenho da política pública, definiram claramente os objetivos, metas realistas e mensuráveis e criaram um modelo lógico consistente. Também garantiram um contexto institucional favorável, disponibilizando informação relevante em tempo útil, com recursos financeiros e humanos adequados e um consenso sobre a realização e os objetivos da avaliação.",
+        "explanation": "(Explicar as respostas que estão erradas) O presidente reconhece que é essencial ter as condições técnicas e de contexto antes de investir recursos no processo de avaliação. Assim, no desenho da política pública, definiram claramente os objetivos, metas realistas e mensuráveis e criaram um modelo lógico consistente. Também garantiram um contexto institucional favorável, disponibilizando informação relevante em tempo útil, com recursos financeiros e humanos adequados e um consenso sobre a realização e os objetivos da avaliação.",
         "hint": "Lembre-se de que é essencial ter condições técnicas e de contexto antes de investir recursos no processo de avaliação. No desenho da política pública, foram definidos objetivos claros, metas realistas e mensuráveis, e foi criado um modelo lógico consistente. Além disso, garantiram um contexto institucional favorável, disponibilizando informação relevante em tempo útil, com recursos financeiros e humanos adequados.",
         "options": [
             "Impacto na Saúde",
             "Contexto Institucional Favorável",
-            "Fotocopiadora"
+            "Fotocopiadora (alterar)"
         ],
         "answer": "Contexto Institucional Favorável",
         "button_answer": "Continuar"
