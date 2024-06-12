@@ -18,7 +18,7 @@ def render_question_content(section):
     if question_key in section:
         st.write(section[question_key])
         options = section.get("options", [])
-        selected_options = st.multiselect("Selecione as opções", options) if question_key == "question_multiple" else st.radio("Selecione uma opção", options)
+        selected_options = st.multiselect("Selecione uma ou mais opções", options) if question_key == "question_multiple" else st.radio("Selecione uma opção", options)
 
         if selected_options:
             if "response_submitted" not in st.session_state:
