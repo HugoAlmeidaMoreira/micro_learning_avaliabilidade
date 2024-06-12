@@ -40,7 +40,7 @@
     },
     {
         "title": "Fases da Análise de Avaliabilidade 📋",
-        "question_multiple": "Em quais fases do ciclo de políticas públicas considera que a análise de avaliabilidade é importante? (Selecione todas as que se aplicam)",
+        "question_multiple": "Em que fases do ciclo de políticas públicas considera que a análise de avaliabilidade é importante?",
         "image_path": "content/Assets/section6.png",
         "explanation": "A análise de avaliabilidade pode ser realizada em diferentes momentos do ciclo de políticas públicas. Durante a formulação, assegura que a política está bem desenhada. Na implementação e monitorização, permite identificar e corrigir problemas em tempo real. Após a implementação, ajuda a entender os resultados e impactos finais.",
         "options": [
