@@ -47,8 +47,7 @@ def render_question_content(section):
                             st.session_state.current_section -= 1
                             st.session_state.response_submitted = False
                             st.rerun()
-        else:
-            st.warning("Selecione pelo menos uma opção.")
+
 
 
 def render_script_content(section):
