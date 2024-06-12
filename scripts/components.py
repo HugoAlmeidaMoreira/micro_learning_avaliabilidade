@@ -30,7 +30,7 @@ def render_question_content(section):
                     if set(selected_options) == set(section.get("answer", [])):
                         st.success("Correcto!")
                     else:
-                        st.error("Quase certo!")
+                        st.error("Errado!")
 
             if st.session_state.response_submitted:
                 st.write(section["explanation"])
