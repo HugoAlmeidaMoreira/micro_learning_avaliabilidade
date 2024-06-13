@@ -1,6 +1,8 @@
 # helpers/ui_helpers.py
 import streamlit as st
 import os
+import json
+
 
 def render_static_content(section):
     """Render title, image, and text from the section."""
@@ -86,3 +88,8 @@ def render_navigation_buttons(section):
             if st.button(section["button_text"]):
                 st.session_state.current_section += 1
                 st.rerun()
+
+def load_quiz_data(file_path):
+    with open(file_path, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
