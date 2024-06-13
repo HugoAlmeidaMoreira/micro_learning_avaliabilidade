@@ -20,7 +20,7 @@ def render_question_content(section):
     if question_key in section:
         st.write(section[question_key])
         options = section.get("options", [])
-        selected_options = st.multiselect("Selecione as opções", options) if question_key == "question_multiple" else st.radio("Selecione uma opção", options)
+        selected_options = st.multiselect("Selecione uma ou mais opções", options) if question_key == "question_multiple" else st.radio("Selecione uma opção", options)
 
         if selected_options:
             if "response_submitted" not in st.session_state:
@@ -32,7 +32,7 @@ def render_question_content(section):
                     if set(selected_options) == set(section.get("answer", [])):
                         st.success("Correcto!")
                     else:
-                        st.error("Quase certo!")
+                        st.error("Errado!")
 
             if st.session_state.response_submitted:
                 st.write(section["explanation"])
@@ -49,8 +49,7 @@ def render_question_content(section):
                             st.session_state.current_section -= 1
                             st.session_state.response_submitted = False
                             st.rerun()
-        else:
-            st.warning("Selecione pelo menos uma opção.")
+
 
 
 def render_script_content(section):
