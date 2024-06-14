@@ -18,7 +18,7 @@ def slider_app():
     images = [
         {"title": "Número de caminhadas", "file": "content/Assets/section1/image1.png"},
         {"title": "Satisfação utilizadores", "file": "content/Assets/section1/image2.png"},
-        {"title": "Esperança de vida em Vale Sereno", "file": "content/Assets/section1/image3.png"},
+        {"title": "Esperança de vida", "file": "content/Assets/section1/image3.png"},
         {"title": "Gastos públicos em saúde", "file": "content/Assets/section1/image4.png"}
     ]
 

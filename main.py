@@ -1,6 +1,6 @@
 # main.py
 import streamlit as st
-from scripts.components import render_static_content, render_question_content, render_script_content, render_navigation_buttons, load_quiz_data
+from scripts.components import render_static_content, render_question_content, render_script_content, render_navigation_buttons, load_quiz_data, configure_sidebar
 
 def run():
     st.set_page_config(
@@ -8,7 +8,7 @@ def run():
         page_icon="🎓",
     )
 
-    # CSS personalizado para os botões
+    # CSS personalizado para os botões e para esconder a sidebar
     st.markdown("""
     <style>
     div.stButton > button {
@@ -19,17 +19,7 @@ def run():
     """, unsafe_allow_html=True)
 
     ### Sidebar
-    st.sidebar.title("Micro-aprendizagem sobre Análise da avaliabilidade de políticas 🎓")
-    st.sidebar.divider()
-    st.sidebar.markdown("""Nesta atividade iremos ficar a compreender o conceito de análise de avaliabilidade nas seguintes dimensões: \n
-    - Qual a sua função
-    - Quais as vantagens
-    - Como se operacionaliza
-    """)
-    st.sidebar.divider()
-    st.sidebar.markdown("[Ver guia de avaliabilidade](https://planapp.gov.pt/wp-content/uploads/2024/01/PlanAPP_Guia-Avaliabilidade-1.pdf) 📘")
-    st.sidebar.divider()
-    st.sidebar.markdown("[Acompanhe o PlanAPP](https://linktr.ee/planapp) 🫶")
+    configure_sidebar()
 
     # Inicializar o estado da aplicação
     if 'current_section' not in st.session_state:

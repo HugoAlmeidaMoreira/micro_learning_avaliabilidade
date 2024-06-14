@@ -1,30 +1,30 @@
 [
     {
-        "title": "Amigos Robóticos para Idosos 🤖",
-        "text": "Uma pequena cidade apresentou o novo programa que vai disponibilizar robôs aos mais idosos para promover a atividade física, assistindo-os nos seus passeios. O presidente explicou que esta iniciativa é um passo importante para melhorar a qualidade de vida dos idosos, proporcionando-lhes companhia e motivação para se manterem ativos.",
-        "image_path": "content/Assets/section1.png",
+        "title": "Análise da avaliabilidade de políticas 🎓",
+        "text": "Bem-vindo a esta sessão de micro-aprendizagem. Nesta atividade iremos ficar a compreender o conceito de análise de avaliabilidade. Qual a sua função, quais as suas vantagens e como se operacionaliza.",
+        "image_path": "content/Assets/cover.png",
         "button_text": "Começar a explorar a análise da avaliabilidade"
     },
     {
-        "title": "Análise da Avaliabilidade 🔎",
-        "text": "O presidente e o avaliador decidem fazer uma análise da avaliabilidade para garantir que o novo programa está preparado para uma avaliação futura. Eles reconhecem a importância de assegurar que todos os elementos necessários estejam em vigor antes de avançar.",
-        "image_path": "content/Assets/section2.png",
+        "title": "Amigos Robóticos para Idosos 🤖",
+        "text": "Uma pequena cidade apresentou o novo programa que vai disponibilizar robôs aos mais idosos para promover a atividade física, assistindo-os nos seus passeios. O presidente explicou que esta iniciativa é um passo importante para melhorar a qualidade de vida dos idosos, proporcionando-lhes companhia e motivação para se manterem ativos.",
+        "image_path": "content/Assets/section1.png",
         "button_text": "Continuar"
     },
     {
         "title": "Dimensões da análise da avaliabilidade 📋",
-        "question": "Selecione o conceito que parece pertencer à análise de avaliabilidade",
+        "question": "Qual destas opções faz parte da análise de avaliabilidade?",
         "image_path": "content/Assets/section3.png",
-        "explanation": "(Explicar as respostas que estão erradas) O presidente reconhece que é essencial ter as condições técnicas e de contexto antes de investir recursos no processo de avaliação. Assim, no desenho da política pública, definiram claramente os objetivos, metas realistas e mensuráveis e criaram um modelo lógico consistente. Também garantiram um contexto institucional favorável, disponibilizando informação relevante em tempo útil, com recursos financeiros e humanos adequados e um consenso sobre a realização e os objetivos da avaliação.",
-        "hint": "Lembre-se de que é essencial ter condições técnicas e de contexto antes de investir recursos no processo de avaliação. No desenho da política pública, foram definidos objetivos claros, metas realistas e mensuráveis, e foi criado um modelo lógico consistente. Além disso, garantiram um contexto institucional favorável, disponibilizando informação relevante em tempo útil, com recursos financeiros e humanos adequados.",
+        "explanation": "O presidente reconhece que é essencial ter as :blue-background[condições técnicas e de contexto] antes de investir recursos no processo de avaliação. Assim, no desenho da política pública, :blue-background[definiram claramente os objetivos, metas realistas e mensuráveis], e :blue-background[criaram um modelo lógico consistente]. Também garantiram um :blue-background[contexto institucional favorável], disponibilizando informação relevante em tempo útil, com recursos financeiros e humanos adequados e um consenso sobre a realização e os objetivos da avaliação. \n\nEmbora :red-background[ajudar os mais idosos] seja relevante, não é :blue-background[um objetivo claramente definido], que poderia ser :green-background[aumentar a atividade física da população mais idosa]. Metas realistas e mensuráveis são essenciais, ao contrário de :red-background[metas vagamente estabelecidas], que são difíceis de avaliar. Um modelo lógico consistente é necessário, enquanto :red-background[um modelo sem coerência] não permite uma avaliação eficaz. A resposta correta, :green-background[Contexto Institucional Favorável], assegura um ambiente propício para a avaliação, com informações relevantes e recursos adequados.",
         "options": [
-            "Impacto na Saúde",
-            "Contexto Institucional Favorável",
-            "Fotocopiadora (alterar)"
+            "Ajuda aos mais idosos",
+            "Metas vagamente estabelecidas",
+            "Modelo sem coerência",
+            "Contexto Institucional Favorável"
         ],
         "answer": "Contexto Institucional Favorável",
         "button_answer": "Continuar"
-    },
+    }, 
     {
         "title": "Importância do acesso a dados 📊",
         "text": "Deslize o cursor para explorar diferentes dados de avaliação do programa “Amigos de circuito” e os seus impactos nos resultados da observação da avaliação.",
@@ -40,19 +40,20 @@
     },
     {
         "title": "Fases da Análise de Avaliabilidade 📋",
-        "question_multiple": "Em que fases do ciclo de políticas públicas considera que a análise de avaliabilidade é importante?",
+        "question_multiple": "Considerando o ciclo de políticas públicas, a análise de avaliabilidade é importante antes, durante ou depois da implementação?",
         "image_path": "content/Assets/section6.png",
-        "explanation": "A análise de avaliabilidade pode ser realizada em diferentes momentos do ciclo de políticas públicas. Durante a formulação, assegura que a política está bem desenhada. Na implementação e monitorização, permite identificar e corrigir problemas em tempo real. Após a implementação, ajuda a entender os resultados e impactos finais.",
+        "explanation": "A análise de avaliabilidade pode ser realizada qualquer um dos momentos do ciclo de políticas públicas. Durante a formulação (:green-background[Avaliação Ex-Ante]), assegura que a política está bem desenhada. Na implementação e monitorização (:green-background[Avaliação Intercalar]), permite identificar e corrigir problemas em tempo real. Após a implementação (:green-background[Avaliação Ex-Post]), ajuda a entender os resultados e impactos finais.",
         "options": [
-            "Formulação da Política (Avaliação Ex-Ante)",
-            "Implementação e Monitorização (Avaliação Intercalar)",
-            "Avaliação Ex-Post"
+            "Antes",
+            "Durante",
+            "Depois"
         ],
         "answer": [
-            "Formulação da Política (Avaliação Ex-Ante)",
-            "Implementação e Monitorização (Avaliação Intercalar)",
-            "Avaliação Ex-Post"
-        ]
+            "Antes",
+            "Durante",
+            "Depois"
+        ],
+        "button_answer": "Continuar"
     },
     {
         "title": "Síntese 👩‍🎓",
