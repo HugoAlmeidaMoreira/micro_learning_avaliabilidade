@@ -39,10 +39,10 @@
         "button_text": "Avançar"
     },
     {
-        "title": "Fases da Análise de Avaliabilidade 📋",
+        "title": "Quando fazer uma análise de avaliabilidade 📋",
         "question_multiple": "Considerando o ciclo de políticas públicas, a análise de avaliabilidade é importante antes, durante ou depois da implementação?",
         "image_path": "content/Assets/section6.png",
-        "explanation": "A análise de avaliabilidade pode ser realizada qualquer um dos momentos do ciclo de políticas públicas. Durante a formulação (:green-background[Avaliação Ex-Ante]), assegura que a política está bem desenhada. Na implementação e monitorização (:green-background[Avaliação Intercalar]), permite identificar e corrigir problemas em tempo real. Após a implementação (:green-background[Avaliação Ex-Post]), ajuda a entender os resultados e impactos finais.",
+        "explanation": "A análise de avaliabilidade deve ser realizada em :green-background[antes da implementação] ou :green-background[depois da implementação], mas não durante a implementação. Isto porque, antes da implementação (:blue-background[Avaliação Ex-Ante]), assegura que a política está bem desenhada com objetivos claros e metas mensuráveis, além de melhorar o sistema de recolha de informações e programar os momentos de avaliação. Após a implementação (:blue-background[Avaliação Ex-Post]), verifica se as condições para avaliação são adequadas, com base nos elementos disponíveis e nas condições existentes. :red-background[Durante a implementação] é pouco comum efetuar uma análise de avaliabilidade.",
         "options": [
             "Antes",
             "Durante",
@@ -50,15 +50,14 @@
         ],
         "answer": [
             "Antes",
-            "Durante",
             "Depois"
         ],
         "button_answer": "Continuar"
     },
     {
         "title": "Síntese 👩‍🎓",
-        "text": "Nesta sessão, explorámos o conceito de análise de avaliabilidade, assegurando que todos os elementos necessários – como objetivos claros, indicadores mensuráveis e um sistema de recolha de dados robusto – estejam em vigor. Aprendemos a importância de realizar esta análise em diferentes fases do ciclo de políticas públicas: formulação, implementação e avaliação ex-post, para garantir a eficácia e o sucesso da política.",
+        "text": "Nesta sessão, explorámos o conceito de análise de avaliabilidade, assegurando que todos os elementos necessários – como :blue-background[objetivos claros], :blue-background[indicadores mensuráveis] e um :blue-background[sistema de recolha de dados robusto] – estejam em vigor. Aprendemos que a análise da avaliabilidade é mais relevante ser executada na :green-background[fase de formulação da política pública ou antes de iniciar a sua implementação] ou :green-background[pouco antes do momento planeado para a realização da avaliação].",
         "image_path": "content/Assets/endsection.png",
         "button_text": "Concluir"
-    }
+    }    
 ]

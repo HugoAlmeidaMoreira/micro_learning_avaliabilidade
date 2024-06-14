@@ -18,9 +18,6 @@ def run():
     </style>
     """, unsafe_allow_html=True)
 
-    ### Sidebar
-    configure_sidebar()
-
     # Inicializar o estado da aplicação
     if 'current_section' not in st.session_state:
         st.session_state.current_section = 0
@@ -36,6 +33,10 @@ def run():
 
     # Renderizar a secção atual
     current_section = st.session_state.current_section
+
+    ### Sidebar
+    if current_section > 0:
+        configure_sidebar()
 
     if current_section < len(section_structure):
         render_section(section_structure[current_section])

@@ -26,6 +26,12 @@ def configure_sidebar():
     st.sidebar.divider()
     st.sidebar.markdown("[Ver guia de avaliabilidade](https://planapp.gov.pt/wp-content/uploads/2024/01/PlanAPP_Guia-Avaliabilidade-1.pdf) 📘")
     st.sidebar.markdown("[Acompanhe o PlanAPP](https://linktr.ee/planapp) 🫶")
+    st.sidebar.divider()
+    # Botão para reiniciar
+    if st.sidebar.button("Voltar ao início"):
+        st.session_state.current_section = 0
+        st.rerun()
+
 
 def render_question_content(section):
     """Render question and handle user response."""
