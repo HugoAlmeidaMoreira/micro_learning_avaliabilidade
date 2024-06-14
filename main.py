@@ -6,6 +6,7 @@ def run():
     st.set_page_config(
         page_title="Análise de avaliabilidade",
         page_icon="🎓",
+        initial_sidebar_state="collapsed",
     )
 
     # CSS personalizado para os botões e para esconder a sidebar
@@ -34,9 +35,7 @@ def run():
     # Renderizar a secção atual
     current_section = st.session_state.current_section
 
-    ### Sidebar
-    if current_section > 0:
-        configure_sidebar()
+    configure_sidebar()
 
     if current_section < len(section_structure):
         render_section(section_structure[current_section])
