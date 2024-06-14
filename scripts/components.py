@@ -75,7 +75,7 @@ def render_question_content(section):
 def render_static_content(section):
     """Render title, image, and text from the section."""
     if "title" in section:
-        st.subheader(section["title"])
+        st.markdown(f"<h3 style='text-align: center;'>{section['title']}</h3>", unsafe_allow_html=True)
     if "image_path" in section and os.path.exists(section["image_path"]):
         st.image(section["image_path"])
         st.divider()
