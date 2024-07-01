@@ -1,4 +1,3 @@
-# slider_script.py
 import streamlit as st
 from PIL import Image
 import os
@@ -6,11 +5,17 @@ import os
 def slider_app():
 
     # CSS to hide the tick labels below the slider and the current value
+    # and add padding to the sides of the slider
     st.markdown("""
         <style>
         /* Hide the tick labels below the slider */
         .stSlider div[data-testid="stTickBar"] > div {
             display: none;
+        }
+        /* Add padding to the sides of the slider */
+        .stSlider {
+            padding-left: 11%;
+            padding-right: 11%;
         }
         </style>
     """, unsafe_allow_html=True)
