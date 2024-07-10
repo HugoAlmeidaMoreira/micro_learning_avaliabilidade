@@ -82,43 +82,6 @@ def render_static_content(section):
     if "text" in section:
         st.markdown(section["text"].replace("\n", "  \n"))
 
-def render_question_content(section):
-    """Render question and handle user response."""
-    question_key = "question_multiple" if "question_multiple" in section else "question"
-    if question_key in section:
-        st.write(section[question_key])
-        options = section.get("options", [])
-        selected_options = st.multiselect("Selecione uma ou mais opções", options) if question_key == "question_multiple" else st.radio("Selecione uma opção", options)
-
-        if selected_options and not st.session_state.get("response_submitted", False):
-            if st.button(section.get("button_text", "Responder")):
-                st.session_state.response_submitted = True
-                if set(selected_options) == set(section.get("answer", [])):
-                    st.success("Correcto!")
-                else:
-                    st.error("Errado!")
-                st.experimental_rerun()  # Force a rerun to update the state
-
-        if st.session_state.get("response_submitted", False):
-            if set(selected_options) == set(section.get("answer", [])):
-                    st.success("Correcto!")
-            else:
-                st.error("Errado!")
-            st.markdown(section["explanation"].replace("\n", "  \n"))
-            st.subheader('', divider='rainbow')
-            col1, col2 = st.columns(2)
-            with col1:
-                if st.button(section.get("button_answer", "Continuar")):
-                    st.session_state.current_section += 1
-                    st.session_state.response_submitted = False
-                    st.rerun()
-            if st.session_state.current_section > 0:
-                with col2:
-                    if st.button("Voltar"):
-                        st.session_state.current_section -= 1
-                        st.session_state.response_submitted = False
-                        st.rerun()
-
 
 def render_script_content(section):
     """Execute script if present in the section."""
