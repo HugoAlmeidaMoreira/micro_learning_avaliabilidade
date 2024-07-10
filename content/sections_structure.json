@@ -1,28 +1,38 @@
 [
     {
         "title": "Análise da avaliabilidade de políticas 🎓",
-        "text": "Bem-vindo! Nesta sessão de micro-aprendizagem, vamos ficar a compreender o conceito de análise de avaliabilidade. Recorrendo a um exemplo prático ficcional, ficaremos a conhecer a sua função, as suas vantagens e como se operacionaliza.",
+        "text": "Olá! Nesta sessão de micro-aprendizagem, vamos ficar a compreender o conceito de análise de avaliabilidade. Recorrendo a um exemplo prático e ficcional, ficaremos a conhecer em que consiste, bem como qual a sua função e utilidade.",
         "image_path": "content/Assets/cover.png",
         "button_text": "Começar a explorar a análise da avaliabilidade"
     },
     {
-        "title": "Amigos Robóticos para Idosos 🤖",
-        "text": "Uma pequena cidade apresentou o novo programa que vai disponibilizar robôs aos mais idosos para promover a atividade física, assistindo-os nos seus passeios. O presidente explicou que esta iniciativa é um passo importante para melhorar a qualidade de vida dos idosos, proporcionando-lhes companhia e motivação para se manterem ativos.",
+        "title": "Programa Amigos Robóticos para Idosos (PARI) 🤖",
+        "text": "Uma pequena cidade apresentou um novo programa que vai disponibilizar robôs aos idosos para promover a atividade física, assistindo-os nos seus passeios. O Presidente da Câmara explicou que esta iniciativa é um passo importante na melhoria da qualidade de vida dos idosos, proporcionando-lhes companhia e assistência nas suas atividades ao ar livre e motivação para se manterem ativos.",
+        "image_path": "content/Assets/section1.png",
+        "button_text": "Continuar"
+    },
+    {
+        "title": "Como funciona o PARI 🤖",
+        "text": "O “Programa Amigos Robóticos para Idosos” (PARI) foi desenvolvido com a premissa de que a presença dos robôs vai incentivar os idosos a sair de casa e a praticar atividade física de maneira mais segura e agradável. Os robôs são programados para interagir de forma amigável, acompanhando, conversando e dando apoio aos idosos durante os seus passeios. Além disso, ajudam a monitorizar a saúde dos participantes e podem enviar alertas aos cuidadores, familiares e serviços de emergência em caso de necessidade. A ideia é que, ao sentirem-se mais seguros e acompanhados, os idosos fiquem mais motivados a adotar um estilo de vida ativo, o que contribuirá para a diminuição do seu isolamento social e para a sua saúde física e mental.",
         "image_path": "content/Assets/section1.png",
         "button_text": "Continuar"
     },
     {
         "title": "Dimensões da análise da avaliabilidade 📋",
-        "question": "Qual destas opções faz parte da análise de avaliabilidade?",
+        "question_multiple": "Imagine que o PARI inclui uma cláusula de avaliação que estipula que, no final do terceiro ano de implementação, deve ser realizada a avaliação do programa, com o objetivo de decidir sobre a sua continuidade. Tendo em vista esta avaliação, o Presidente da Câmara deseja realizar uma análise de avaliabilidade ao PARI, para garantir que no momento da avaliação estão reunidas as melhores condições para a sua realização. Entre as dimensões de análise seguintes, quais considera que podem fazer parte da análise de avaliabilidade?",
         "image_path": "content/Assets/section2.png",
         "explanation": "O presidente reconhece que é essencial ter as :blue-background[condições técnicas e de contexto] antes de investir recursos no processo de avaliação. Assim, no desenho da política pública, :blue-background[definiram claramente os objetivos, metas realistas e mensuráveis], e :blue-background[criaram um modelo lógico consistente]. Também garantiram um :blue-background[contexto institucional favorável], disponibilizando informação relevante em tempo útil, com recursos financeiros e humanos adequados e um consenso sobre a realização e os objetivos da avaliação. \n\nEmbora :red-background[ajudar os mais idosos] seja relevante, não é :blue-background[um objetivo claramente definido], que poderia ser :green-background[aumentar a atividade física da população mais idosa]. Metas realistas e mensuráveis são essenciais, ao contrário de :red-background[metas vagamente estabelecidas], que são difíceis de avaliar. Um modelo lógico consistente é necessário, enquanto :red-background[um modelo sem coerência] não permite uma avaliação eficaz. A resposta correta, :green-background[Contexto Institucional Favorável], assegura um ambiente propício para a avaliação, com informações relevantes e recursos adequados.",
         "options": [
-            "Ajuda aos mais idosos",
-            "Metas vagamente estabelecidas",
-            "Modelo sem coerência",
-            "Contexto Institucional Favorável"
+            "A lógica do programa",
+            "Recolha, qualidade e disponibilidade dos dados necessários para a avaliação",
+            "Condições institucionais",
+            "Capacidade de os robôs executarem passos de dança, garantindo que os idosos podem desfrutar de entretenimento e atividades recreativas"
         ],
-        "answer": "Contexto Institucional Favorável",
+        "answer": [
+            "A lógica do programa",
+            "Recolha, qualidade e disponibilidade dos dados necessários para a avaliação",
+            "Condições institucionais"
+        ],
         "button_answer": "Continuar"
     }, 
     {
@@ -56,7 +66,7 @@
     },
     {
         "title": "Síntese 👩‍🎓",
-        "text": "Nesta sessão, explorámos o conceito de análise de avaliabilidade, assegurando que todos os elementos necessários – como :blue-background[objetivos claros], :blue-background[indicadores mensuráveis] e um :blue-background[sistema de recolha de dados robusto] – estejam em vigor. Aprendemos que a análise da avaliabilidade é mais relevante ser executada na :green-background[fase de formulação da política pública ou antes de iniciar a sua implementação] ou :green-background[pouco antes do momento planeado para a realização da avaliação].",
+        "text": "Nesta sessão de micro-aprendizagem exploramos o conceito de análise de avaliabilidade, as suas funções e utilidade. Aprendemos que esta análise é essencial para assegurar as condições técnicas e de contexto necessárias à realização de uma avaliação útil e de qualidade. Entre essas condições, estão a plausibilidade da lógica do programa, a disponibilidade de dados e a existência de condições institucionais favoráveis à realização da avaliação. Também vimos que a análise de avaliabilidade pode ser realizada em vários momentos do ciclo da política pública, designadamente antes ou no início da sua implementação, bem como antes da avaliação propriamente dita.  No caso do Programa Amigos Robóticos para Idosos, a análise de avaliabilidade pode ajudar a garantir que os objetivos de melhorar a saúde física e mental dos idosos proporcionando-lhes companhia e assistência através de robôs são viáveis e realistas, que os dados necessários para avaliar os resultados do programa estão disponíveis ou são recolhidos e disponibilizados atempadamente, e que o contexto institucional suporta a avaliação.",
         "image_path": "content/Assets/endsection.png",
         "button_text": "Concluir"
     }    
