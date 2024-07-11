@@ -21,10 +21,9 @@ def slider_app():
     """, unsafe_allow_html=True)
     
     images = [
-        {"title": "Número de caminhadas", "file": "content/Assets/section1/image1.png"},
-        {"title": "Satisfação utilizadores", "file": "content/Assets/section1/image2.png"},
-        {"title": "Esperança de vida", "file": "content/Assets/section1/image3.png"},
-        {"title": "Gastos públicos em saúde", "file": "content/Assets/section1/image4.png"}
+        {"title": "Disponibilização de robôs", "file": "content/Assets/section1/image1.png"},
+        {"title": "Atividade fisica e companhia", "file": "content/Assets/section1/image2.png"},
+        {"title": "Melhoria  Saúde física e mental", "file": "content/Assets/section1/image3.png"},
     ]
 
     # Create the select slider
