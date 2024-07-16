@@ -72,6 +72,60 @@ def render_question_content(section):
                         st.session_state.response_submitted = False
                         st.rerun()
 
+def render_question_content(section):
+    """Render question and handle user response."""
+    question_key = "question_multiple" if "question_multiple" in section else "question"
+    if question_key in section:
+        st.write(section[question_key])
+        options = section.get("options", [])
+        
+        feedback_placeholder = st.empty()
+
+        if not st.session_state.get("response_submitted", False):
+            selected_options = st.multiselect("Selecione uma ou mais opções", options, placeholder="Selecione uma opção", key="multiselect") if question_key == "question_multiple" else st.radio("Selecione uma opção", options)
+
+            if selected_options:
+                if st.button(section.get("button_text", "Responder")):
+                    st.session_state.response_submitted = True
+                    st.session_state.selected_options = selected_options
+                    st.experimental_rerun()  # Force a rerun to update the state
+        
+        if st.session_state.get("response_submitted", False):
+            selected_options = st.session_state.get("selected_options", [])
+            all_correct = True
+            for option in selected_options:
+                explanation = section["explanations"].get(option, "")
+                if option in section["answer"]:
+                    st.success(f"{option}: {explanation}")
+                else:
+                    st.error(f"{option}: {explanation}")
+                    all_correct = False
+
+            if all_correct and set(selected_options) == set(section.get("answer", [])):
+                feedback_placeholder.success("Todas as respostas estão corretas!")
+            elif all_correct:
+                feedback_placeholder.warning("Respostas corretas, mas incompletas.")
+            else:
+                feedback_placeholder.error("Existem respostas incorretas.")
+            
+            # Adicionar coluna extra para "Tentar novamente"
+            col1, col2, col3 = st.columns(3)
+            with col1:
+                if st.button(section.get("button_answer", "Continuar")):
+                    st.session_state.current_section += 1
+                    st.session_state.response_submitted = False
+                    st.experimental_rerun()
+            with col2:
+                if st.button("Tentar novamente"):
+                    st.session_state.response_submitted = False
+                    st.experimental_rerun()  # Refresh the page
+            if st.session_state.current_section > 0:
+                with col3:
+                    if st.button("Voltar"):
+                        st.session_state.current_section -= 1
+                        st.session_state.response_submitted = False
+                        st.experimental_rerun()
+
 def render_static_content(section):
     """Render title, image, and text from the section."""
     if "title" in section:
@@ -122,3 +176,4 @@ def render_navigation_buttons(section):
 def load_quiz_data(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         return json.load(f)
+    

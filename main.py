@@ -9,7 +9,7 @@ def run():
         initial_sidebar_state="collapsed",
     )
 
-    # CSS personalizado para os botões e para esconder a sidebar
+    # CSS personalizado para os botões
     st.markdown("""
     <style>
     div.stButton > button {

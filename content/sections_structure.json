@@ -22,7 +22,12 @@
         "title": "Dimensões da análise da avaliabilidade 📋",
         "question_multiple": "O Presidente e a Avaliadora desejam realizar uma análise de avaliabilidade ao Programa Amigos Robóticos para Idosos, para garantir que no momento da avaliação estão reunidas as melhores condições para a sua realização. Entre as dimensões de análise seguintes, quais considera que podem fazer parte da análise de avaliabilidade?",
         "image_path": "content/Assets/section2.png",
-        "explanation": ":green-background[A lógica do programa] é essencial na análise de avaliabilidade. Refere-se ao modelo lógico ou teoria da programação e inclui objetivos, atividades previstas, recursos, resultados e impactos esperados, e a relação entre esses elementos. :green-background[A recolha, qualidade e a disponibilidade dos dados] são essenciais para a análise de avaliabilidade, pois sem dados confiáveis, atualizados, relevantes e acessíveis, não é possível avaliar adequadamente os objetivos e resultados do programa. As :green-background[Condições institucionais] referem-se ao ambiente organizacional e político que pode influenciar a avaliação. Fatores como apoio institucional, consenso sobre os objetivos e utilidade da avaliação, além dos recursos disponíveis – financeiros, humanos e de tempo – são cruciais para a viabilidade e sucesso da avaliação. :red-background[Capacidade de os robôs executarem passos de dança, garantindo que os idosos podem desfrutar de entretenimento e atividades recreativas está incorreto]. Embora o entretenimento e as atividades recreativas possam fazer parte do programa, a capacidade dos robôs dançarem não é uma dimensão típica da análise de avaliabilidade.",
+        "explanations": {
+            "A lógica do programa": "é essencial na análise de avaliabilidade. Refere-se ao modelo lógico ou teoria da programação e inclui objetivos, atividades previstas, recursos, resultados e impactos esperados, e a relação entre esses elementos.",
+            "Recolha, qualidade e disponibilidade dos dados necessários para a avaliação": "são essenciais para a análise de avaliabilidade, pois sem dados confiáveis, atualizados, relevantes e acessíveis, não é possível avaliar adequadamente os objetivos e resultados do programa.",
+            "Condições institucionais": "referem-se ao ambiente organizacional e político que pode influenciar a avaliação. Fatores como apoio institucional, consenso sobre os objetivos e utilidade da avaliação, além dos recursos disponíveis – financeiros, humanos e de tempo – são cruciais para a viabilidade e sucesso da avaliação.",
+            "Capacidade de os robôs executarem passos de dança, garantindo que os idosos podem desfrutar de entretenimento e atividades recreativas": "está incorreto. Embora o entretenimento e as atividades recreativas possam fazer parte do programa, a capacidade dos robôs dançarem não é uma dimensão típica da análise de avaliabilidade."
+        },
         "options": [
             "A lógica do programa",
             "Recolha, qualidade e disponibilidade dos dados necessários para a avaliação",
@@ -35,7 +40,7 @@
             "Condições institucionais"
         ],
         "button_answer": "Continuar"
-    },
+    },    
     {
         "title": "Dimensões da análise da Avaliabilidade 📚",
         "text": "Depois de decidir realizar uma análise de avaliabilidade, o presidente e o avaliador precisam considerar três componentes principais: :blue-background[teoria], :orange-background[prática] e :green-background[utilidade e interesse]. :blue-background[A teoria avalia se existe um raciocínio claro que articule como e em que condições as atividades influenciam a mudança]. :orange-background[A prática verifica se existem dados disponíveis para avaliar o mérito ou o valor da intervenção]. :green-background[A utilidade e interesse determinam se há interesse dos decisores políticos em utilizar os resultados e recomendações da avaliação.]",
