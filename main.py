@@ -49,6 +49,9 @@ def run():
         st.image("content/Assets/endsection.png")
         st.subheader('', divider='rainbow')
         st.markdown(f"""
+            <div style="text-align: center;"><h4><a href='https://planapp.gov.pt/wp-content/uploads/2024/01/PlanAPP_Guia-Avaliabilidade-1.pdf'target='_blank'>Ver guia de avaliabilidade</a></h4>
+            </div>""", unsafe_allow_html=True)
+        st.markdown(f"""
             <div style="text-align: center;">
                 <h4>Acompanhe o trabalho do PlanAPP em <a href='https://linktr.ee/planapp' target='_blank'>diferentes plataformas</a>.</h4>
             </div>

@@ -92,18 +92,25 @@ def render_question_content(section):
         
         if st.session_state.get("response_submitted", False):
             selected_options = st.session_state.get("selected_options", [])
-            all_correct = True
+            correct_count = 0  # Contador de respostas corretas
+            incorrect_count = 0  # Contador de respostas incorretas
+
             for option in selected_options:
                 explanation = section["explanations"].get(option, "")
                 if option in section["answer"]:
                     st.success(f"{option}: {explanation}")
+                    correct_count += 1  # Incrementa contador de respostas corretas
                 else:
                     st.error(f"{option}: {explanation}")
-                    all_correct = False
+                    incorrect_count += 1  # Incrementa contador de respostas incorretas
 
-            if all_correct and set(selected_options) == set(section.get("answer", [])):
+            if correct_count == len(section["answer"]) and incorrect_count == 0:
                 feedback_placeholder.success("Todas as respostas estão corretas!")
-            elif all_correct:
+            elif correct_count > 0 and incorrect_count > 0:
+                feedback_placeholder.warning("Existem respostas corretas, mas também existem respostas incorretas.")
+            elif correct_count == 1 and incorrect_count == 0:
+                feedback_placeholder.warning("Resposta correta, mas ainda incompleta.")
+            elif correct_count > 1 and correct_count < len(section["answer"]) and incorrect_count == 0:
                 feedback_placeholder.warning("Respostas corretas, mas incompletas.")
             else:
                 feedback_placeholder.error("Existem respostas incorretas.")
