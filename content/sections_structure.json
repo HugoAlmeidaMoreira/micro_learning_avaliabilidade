@@ -20,7 +20,7 @@
     },
     {
         "title": "Dimensões da análise da avaliabilidade 📋",
-        "question_multiple": "O programa prevê a realização de uma avaliação no final do terceiro ano de implementação para se decidir sobre a sua continuidade. Para isso, o Presidente e a Avaliadora desejam realizar uma análise de avaliabilidade ao Programa Amigos Robóticos para Idosos, de modo a garantir que no momento da avaliação estão reunidas as melhores condições para a sua realização. Entre as dimensões de análise seguintes, quais considera que podem fazer parte da análise de avaliabilidade?",
+        "question_multiple": "O programa prevê a realização de uma avaliação no final do terceiro ano de implementação para se decidir sobre a sua continuidade. Para isso, o Presidente chamou uma equipa para realizar a análise de avaliabilidade ao Programa Amigos Robóticos para Idosos, de modo a garantir que no momento da avaliação estão reunidas as melhores condições para a sua realização. Entre as dimensões de análise seguintes, quais considera que podem fazer parte da análise de avaliabilidade?",
         "image_path": "content/Assets/section2.png",
         "explanations": {
             "A lógica do programa": "é essencial na análise de avaliabilidade. Refere-se ao modelo lógico ou teoria da programação e inclui objetivos, atividades previstas, recursos, resultados e impactos esperados, e a relação entre esses elementos.",
