@@ -20,13 +20,13 @@
     },
     {
         "title": "Dimensões da análise da avaliabilidade 📋",
-        "question_multiple": "O programa prevê a realização de uma avaliação no final do terceiro ano de implementação para se decidir sobre a sua continuidade. Para isso, o Presidente e a Avaliadora desejam realizar uma análise de avaliabilidade ao Programa Amigos Robóticos para Idosos, de modo a garantir que no momento da avaliação estão reunidas as melhores condições para a sua realização. Entre as dimensões de análise seguintes, quais considera que podem fazer parte da análise de avaliabilidade?",
+        "question_multiple": "O programa prevê a realização de uma avaliação no final do terceiro ano de implementação para se decidir sobre a sua continuidade. Para isso, o Presidente chamou uma equipa para realizar a análise de avaliabilidade ao Programa Amigos Robóticos para Idosos, de modo a garantir que no momento da avaliação estão reunidas as melhores condições para a sua realização. Entre as dimensões de análise seguintes, quais considera que podem fazer parte da análise de avaliabilidade?",
         "image_path": "content/Assets/section2.png",
         "explanations": {
-            "A lógica do programa": "é essencial na análise de avaliabilidade. Refere-se ao modelo lógico ou teoria da programação e inclui objetivos, atividades previstas, recursos, resultados e impactos esperados, e a relação entre esses elementos.",
-            "Recolha, qualidade e disponibilidade dos dados necessários para a avaliação": "são fundamentais para a análise de avaliabilidade porque sem dados confiáveis, atualizados, relevantes e acessíveis não é possível avaliar adequadamente os objetivos e resultados do programa.",
+            "A lógica do programa": "é essencial na análise de avaliabilidade. Refere-se ao modelo lógico ou teoria da programação e inclui objetivos, atividades previstas, recursos disponíveis, resultados e impactos esperados, e a forma como esses elementos estão relacionados, ou seja, como cada um contribui para a concretização dos restantes.",
+            "Recolha, qualidade e disponibilidade dos dados necessários para a avaliação": "são fundamentais para a análise de avaliabilidade porque sem dados confiáveis, atualizados, relevantes e acessíveis não é possível avaliar adequadamente se os objetivos e resultados do programa foram alcançados.",
             "Condições institucionais": "referem-se ao ambiente organizacional e político que pode influenciar a avaliação. Fatores como apoio institucional, consenso sobre os objetivos e utilidade da avaliação, além dos recursos disponíveis – financeiros, humanos e de tempo – são cruciais para a viabilidade e sucesso da avaliação.",
-            "Capacidade de os robôs executarem passos de dança, garantindo que os idosos podem desfrutar de entretenimento e atividades recreativas": "está incorreto. Embora o entretenimento e as atividades recreativas possam fazer parte do programa, a capacidade dos robôs dançarem não é uma dimensão da análise de avaliabilidade."
+            "Capacidade de os robôs executarem passos de dança, garantindo que os idosos podem desfrutar de entretenimento e atividades recreativas": "está incorreto, pois, embora o entretenimento e as atividades recreativas possam fazer parte do programa, a capacidade dos robôs dançarem não é uma dimensão da análise de avaliabilidade. Esta foca-se na lógica do programa, nos dados necessários para a realização da avaliação e nas condições institucionais."
         },
         "options": [
             "A lógica do programa",
@@ -42,18 +42,12 @@
         "button_answer": "Continuar"
     },    
     {
-        "title": "Dimensões da análise da Avaliabilidade 📚",
-        "text": "Depois de decidir realizar uma análise de avaliabilidade, o presidente e o avaliador precisam considerar três componentes principais: :blue-background[teoria], :orange-background[prática] e :green-background[utilidade e interesse]. :blue-background[A teoria avalia se existe um raciocínio claro que articule como e em que condições as atividades influenciam a mudança]. :orange-background[A prática verifica se existem dados disponíveis para avaliar o mérito ou o valor da intervenção]. :green-background[A utilidade e interesse determinam se há interesse dos decisores políticos em utilizar os resultados e recomendações da avaliação.]",
-        "image_path": "content/Assets/section5.png",
-        "button_text": "Avançar"
-    },
-    {
         "title": "Quando fazer uma análise de avaliabilidade 📋",
         "question_multiple": "Considerando o ciclo de políticas públicas, a análise de avaliabilidade é importante antes, durante ou depois da implementação?",
         "image_path": "content/Assets/section6.png",
         "explanations": {
-            "Durante a fase de formulação da política ou antes do início da sua implementação": "Realizar uma análise de avaliabilidade durante a fase de formulação da política ou antes da sua implementação permite identificar potenciais problemas e desafios antes do programa ser implementado e, assim  efetuar ajustamentos e melhorias numa fase inicial, minimizando custos e efeitos adversos mais tarde.",
-            "Antes da fase de avaliação": "A análise de avaliabilidade também pode ser realizada antes da avaliação, mas nesse caso as oportunidades para melhorias são mais limitadas. O foco de uma análise de avaliabilidade nesta fase é verificar a existência de condições para a avaliação no curto prazo e identificar potenciais dificuldades na sua realização.",
+            "Durante a fase de formulação da política ou antes do início da sua implementação": "realizar uma análise de avaliabilidade durante a fase de formulação da política ou antes da sua implementação permite identificar potenciais problemas e desafios antes do programa ser implementado e, assim, efetuar ajustamentos e melhorias numa fase inicial, minimizando custos e efeitos adversos mais tarde. No caso deste programa, tudo indica que o Presidente da Câmara quer avançar com uma análise de avaliabilidade no início da implementação do programa, de modo a acautelar atempadamente aspetos fundamentais para avaliação, como por exemplo a recolha dos dados necessários.",
+            "Antes da fase de avaliação": "a análise de avaliabilidade também pode ser realizada antes da avaliação, mas, nesse caso, as oportunidades para melhorias são mais limitadas. O foco de uma análise de avaliabilidade nesta fase é verificar a existência de condições para a avaliação no curto prazo e identificar potenciais dificuldades na sua realização. No caso deste programa, pode ser solicitada uma nova análise de avaliabilidade quando se estiver a aproximar o momento da avaliação para, por exemplo, confirmar a adequação dos dados e das condições institucionais, identificar mudanças que possam ter ocorrido entretanto e ajustar o plano de avaliação.",
             "Durante a fase de formação da agenda": "não é correto realizar uma análise de avaliabilidade na fase de formação da agenda, que se refere ao estágio inicial em que os problemas sociais são identificados e priorizados para intervenção política. Embora seja importante nesta fase considerar avaliações futuras, uma análise de avaliabilidade exige dados mais concretos sobre a política pública e a sua implementação, que ainda não estão disponíveis."
         },
         "options": [
