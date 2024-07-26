@@ -22,7 +22,7 @@ def slider_app():
     
     images = [
         {"title": "Disponibilização de robôs", "file": "content/Assets/section1/image1.png"},
-        {"title": "(+) atividade física; (-) isolamento social", "file": "content/Assets/section1/image2.png"},
+        {"title": "(+) atividade física (-) isolamento social", "file": "content/Assets/section1/image2.png"},
         {"title": "Melhoria  Saúde física e mental", "file": "content/Assets/section1/image3.png"},
     ]
 
