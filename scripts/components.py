@@ -15,7 +15,7 @@ def configure_sidebar():
     else:
         st.error("Logotipo ou ícone não encontrados.")
 
-    st.sidebar.title("Micro-aprendizagem Análise da avaliabilidade de políticas 🎓")
+    st.sidebar.title("Microlearning Análise da avaliabilidade de políticas 🎓")
     st.sidebar.divider()
     st.sidebar.subheader("Objetivos 🎯")
     st.sidebar.markdown("""Compreender o conceito de análise de avaliabilidade nas seguintes dimensões: \n
