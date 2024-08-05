@@ -42,7 +42,7 @@ def run():
     else:
         st.markdown(f"""
             <div style="text-align: center;">
-                <h3> 🎓Parabéns! Você concluiu a micro-aprendizagem sobre análise de avaliabilidade. 🎓</h3>
+                <h3> 🎓Parabéns! Você concluiu a sessão de microlearning sobre análise de avaliabilidade. 🎓</h3>
             </div>
             """, unsafe_allow_html=True)
         st.subheader('', divider='rainbow')
