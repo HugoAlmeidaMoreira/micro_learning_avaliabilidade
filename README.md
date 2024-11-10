@@ -4,7 +4,7 @@
 This project is a simple but interactive quiz application built using Streamlit, ideal for educational purposes or entertainment. It demonstrates how to create an engaging web application with Python.
 
 ## Features
-- Dynamic progress tracking
+- Dynamic progress tracking.
 - Instant feedback on user's answers
 - Cumulative score presented at the end of the quiz
 - Customizable quiz questions and answers
