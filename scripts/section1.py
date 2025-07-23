@@ -36,7 +36,7 @@ def slider_app():
 
     # Display the image based on the slider value
     image = Image.open(image_info["file"])
-    st.image(image, use_column_width=True)
+    st.image(image, use_container_width=True)
 
 # Ensure the script can be run standalone for testing
 if __name__ == "__main__":
